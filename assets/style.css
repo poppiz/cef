@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap'); 
+
+@font-face { 
+    font-family: 'Raleway'; 
+    src: url('./fonts/Raleway-Regular.woff'); 
+    src: url('./fonts/Raleway-Regular.otf') format('opentype'), 
+         url('./fonts/Raleway-Regular.ttf') format('truetype') 
+} 
+
+@font-face { 
+    font-family: 'Raleway-bold'; 
+    src: url('./fonts/Raleway-Bold.woff'); 
+    src: url('./fonts/Raleway-Bold.otf') format('opentype'), 
+         url('./fonts/Raleway-Bold.ttf') format('truetype') 
+}  
+
+@font-face { 
+    font-family: 'Raleway-Italic'; 
+    src: url('./fonts/Raleway-Italic.woff'); 
+    src: url('./fonts/Raleway-Italic.otf') format('opentype'), 
+         url('./fonts/Raleway-Italic.ttf') format('truetype') 
+} 
+
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    width: 1160px;
+    margin: auto;
+}
+
+header, main, footer {
+    background-color: #782221 ;
+}
+
+
+
+
