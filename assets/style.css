@@ -49,10 +49,16 @@ header {
 }
 
 header img {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     border-radius: 150px;
     margin: 70px 0px 30px 0px;
+    object-fit: cover;
+    box-shadow: 0px 0px 16px 9px rgba(255,255,255,0.86); 
+}
+
+header img:hover {
+    cursor: zoom-in;
 }
 
 h1 {
@@ -77,10 +83,14 @@ h2 {
     margin: 0px 50px;
 }
 
+#contact a:hover {
+    text-decoration: underline;
+}
+
 main {
     display: grid;
     grid-template-columns: 30% 70%;
-
+    border-right: black solid 1px;
 }
 
 #left-column {
@@ -95,7 +105,8 @@ h3 {
     background-color: #dbc2a4;
     height: 40px;
     color: black;
-
+    font-weight: bold;
+    padding-top: 6px;
 }
 
 #left-column p, #left-column ul {
@@ -114,7 +125,6 @@ h3 {
 }
 
 #right-column {
-    border-right: black solid 1px;
     padding: 0px 20px 20px 50px;
 }
 
@@ -139,4 +149,29 @@ h3 {
 
 .border:hover { 
     border-right: #2c1d27 solid 10px;
-} 
+}
+
+footer {
+    text-align: center;
+}
+
+footer img {
+    height: 50px;
+    width: 50px;
+}
+
+footer img:hover {
+    opacity: 0.8;
+}
+
+footer ul {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 100px;
+    list-style: none;
+}
+
+footer li {
+    margin: 0px 30px;
+}
